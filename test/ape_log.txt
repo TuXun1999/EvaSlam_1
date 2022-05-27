@@ -1,0 +1,104 @@
+[DEBUG][2022-05-26 17:02:43,423][main_ape.run():256]
+--------------------------------------------------------------------------------
+[DEBUG][2022-05-26 17:02:43,430][file_interface.read_kitti_poses_file():168]
+Loaded 801 poses from: 03.txt
+[DEBUG][2022-05-26 17:02:43,438][file_interface.read_kitti_poses_file():168]
+Loaded 801 poses from: CameraTrajectory.txt
+[DEBUG][2022-05-26 17:02:43,438][main_ape.ape():207]
+--------------------------------------------------------------------------------
+[DEBUG][2022-05-26 17:02:43,439][metrics.process_data():389]
+Compared 801 absolute pose pairs.
+[DEBUG][2022-05-26 17:02:43,439][metrics.process_data():390]
+Calculating APE for translation part pose relation...
+[DEBUG][2022-05-26 17:02:43,442][main_ape.ape():229]
+--------------------------------------------------------------------------------
+[INFO][2022-05-26 17:02:43,442][main_ape.ape():230]
+APE w.r.t. translation part (m)
+(not aligned)
+
+       max	3.737804
+      mean	1.829653
+    median	1.436886
+       min	0.000000
+      rmse	2.114163
+       sse	3580.216513
+       std	1.059270
+
+[DEBUG][2022-05-26 17:03:48,321][main_ape.run():256]
+--------------------------------------------------------------------------------
+[DEBUG][2022-05-26 17:03:48,329][file_interface.read_kitti_poses_file():168]
+Loaded 801 poses from: 03.txt
+[DEBUG][2022-05-26 17:03:48,337][file_interface.read_kitti_poses_file():168]
+Loaded 801 poses from: CameraTrajectory.txt
+[DEBUG][2022-05-26 17:03:48,337][main_ape.ape():199]
+--------------------------------------------------------------------------------
+[DEBUG][2022-05-26 17:03:48,337][trajectory.align():200]
+Aligning using Umeyama's method... (with scale correction)
+[DEBUG][2022-05-26 17:03:48,342][trajectory.align():212]
+Rotation of alignment:
+[[ 9.99983174e-01  5.77069030e-03  5.93033985e-04]
+ [-5.77259670e-03  9.99978009e-01  3.26486532e-03]
+ [-5.74180417e-04 -3.26823373e-03  9.99994494e-01]]
+Translation of alignment:
+[-0.10195892 -0.49210353 -0.01984484]
+[DEBUG][2022-05-26 17:03:48,342][trajectory.align():214]
+Scale correction: 0.9955763741525789
+[DEBUG][2022-05-26 17:03:48,370][main_ape.ape():207]
+--------------------------------------------------------------------------------
+[DEBUG][2022-05-26 17:03:48,370][metrics.process_data():389]
+Compared 801 absolute pose pairs.
+[DEBUG][2022-05-26 17:03:48,370][metrics.process_data():390]
+Calculating APE for translation part pose relation...
+[DEBUG][2022-05-26 17:03:48,375][main_ape.ape():229]
+--------------------------------------------------------------------------------
+[INFO][2022-05-26 17:03:48,375][main_ape.ape():230]
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	0.502947
+      mean	0.239761
+    median	0.227302
+       min	0.010291
+      rmse	0.262796
+       sse	55.318370
+       std	0.107594
+
+[DEBUG][2022-05-26 17:04:01,379][main_ape.run():256]
+--------------------------------------------------------------------------------
+[DEBUG][2022-05-26 17:04:01,387][file_interface.read_kitti_poses_file():168]
+Loaded 801 poses from: 03.txt
+[DEBUG][2022-05-26 17:04:01,395][file_interface.read_kitti_poses_file():168]
+Loaded 801 poses from: CameraTrajectory.txt
+[DEBUG][2022-05-26 17:04:01,396][main_ape.ape():199]
+--------------------------------------------------------------------------------
+[DEBUG][2022-05-26 17:04:01,396][trajectory.align():200]
+Aligning using Umeyama's method... (with scale correction)
+[DEBUG][2022-05-26 17:04:01,401][trajectory.align():212]
+Rotation of alignment:
+[[ 9.99983174e-01  5.77069030e-03  5.93033985e-04]
+ [-5.77259670e-03  9.99978009e-01  3.26486532e-03]
+ [-5.74180417e-04 -3.26823373e-03  9.99994494e-01]]
+Translation of alignment:
+[-0.10195892 -0.49210353 -0.01984484]
+[DEBUG][2022-05-26 17:04:01,401][trajectory.align():214]
+Scale correction: 0.9955763741525789
+[DEBUG][2022-05-26 17:04:01,430][main_ape.ape():207]
+--------------------------------------------------------------------------------
+[DEBUG][2022-05-26 17:04:01,430][metrics.process_data():389]
+Compared 801 absolute pose pairs.
+[DEBUG][2022-05-26 17:04:01,430][metrics.process_data():390]
+Calculating APE for translation part pose relation...
+[DEBUG][2022-05-26 17:04:01,434][main_ape.ape():229]
+--------------------------------------------------------------------------------
+[INFO][2022-05-26 17:04:01,435][main_ape.ape():230]
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	0.502947
+      mean	0.239761
+    median	0.227302
+       min	0.010291
+      rmse	0.262796
+       sse	55.318370
+       std	0.107594
+

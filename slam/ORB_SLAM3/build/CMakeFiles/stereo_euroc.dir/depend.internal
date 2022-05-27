@@ -9,18 +9,6 @@ CMakeFiles/stereo_euroc.dir/Examples/Stereo/stereo_euroc.cc.o
  ../Thirdparty/DBoW2/DBoW2/ScoringObject.h
  ../Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
  ../Thirdparty/DBoW2/DUtils/Random.h
- ../Thirdparty/Sophus/sophus/common.hpp
- ../Thirdparty/Sophus/sophus/formatstring.hpp
- ../Thirdparty/Sophus/sophus/geometry.hpp
- ../Thirdparty/Sophus/sophus/rotation_matrix.hpp
- ../Thirdparty/Sophus/sophus/rxso3.hpp
- ../Thirdparty/Sophus/sophus/se2.hpp
- ../Thirdparty/Sophus/sophus/se3.hpp
- ../Thirdparty/Sophus/sophus/sim3.hpp
- ../Thirdparty/Sophus/sophus/sim_details.hpp
- ../Thirdparty/Sophus/sophus/so2.hpp
- ../Thirdparty/Sophus/sophus/so3.hpp
- ../Thirdparty/Sophus/sophus/types.hpp
  ../Thirdparty/g2o/config.h
  ../Thirdparty/g2o/g2o/core/base_binary_edge.h
  ../Thirdparty/g2o/g2o/core/base_binary_edge.hpp
@@ -49,11 +37,11 @@ CMakeFiles/stereo_euroc.dir/Examples/Stereo/stereo_euroc.cc.o
  ../include/CameraModels/GeometricCamera.h
  ../include/CameraModels/KannalaBrandt8.h
  ../include/CameraModels/Pinhole.h
- ../include/Converter.h
+ ../include/Config.h
  ../include/Frame.h
  ../include/FrameDrawer.h
- ../include/GeometricTools.h
  ../include/ImuTypes.h
+ ../include/Initializer.h
  ../include/KeyFrame.h
  ../include/KeyFrameDatabase.h
  ../include/LocalMapping.h
@@ -63,8 +51,6 @@ CMakeFiles/stereo_euroc.dir/Examples/Stereo/stereo_euroc.cc.o
  ../include/MapPoint.h
  ../include/ORBVocabulary.h
  ../include/ORBextractor.h
- ../include/SerializationUtils.h
- ../include/Settings.h
  ../include/System.h
  ../include/Tracking.h
  ../include/TwoViewReconstruction.h

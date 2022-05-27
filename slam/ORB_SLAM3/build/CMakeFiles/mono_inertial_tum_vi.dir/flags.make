@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall   -O3 -std=c++14 -O3 -DNDEBUG -march=native
 
 CXX_DEFINES = -DCOMPILEDWITHC11 -DHAVE_EIGEN -DHAVE_GLEW -DHAVE_PYTHON -DPANGO_DEFAULT_WIN_URI=\"wayland\" -D_LINUX_
 
-CXX_INCLUDES = -I/home/xun/ORB_SLAM3 -I/home/xun/ORB_SLAM3/include -I/home/xun/ORB_SLAM3/include/CameraModels -I/home/xun/ORB_SLAM3/Thirdparty/Sophus -isystem /usr/local/include/eigen3 -isystem /usr/local/include/opencv4 
+CXX_INCLUDES = -I/home/xun/ORB_SLAM3 -I/home/xun/ORB_SLAM3/include -I/home/xun/ORB_SLAM3/include/CameraModels -isystem /usr/local/include/eigen3 -isystem /usr/local/include/opencv4 
 

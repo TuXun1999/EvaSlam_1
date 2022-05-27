@@ -7,11 +7,11 @@ C_FLAGS =   -Wall   -O3  -Wall -W -O3 -DNDEBUG -march=native -O3 -march=native -
 
 C_DEFINES = -DCOMPILEDWITHC11 -DUNIX -Dg2o_EXPORTS
 
-C_INCLUDES = -I/home/xun/ORB_SLAM3 -I/home/xun/ORB_SLAM3/include -I/home/xun/ORB_SLAM3/include/CameraModels -I/home/xun/ORB_SLAM3/Thirdparty/Sophus -I/usr/local/include/eigen3 -I/home/xun/ORB_SLAM3/Thirdparty/g2o/core -I/home/xun/ORB_SLAM3/Thirdparty/g2o/types -I/home/xun/ORB_SLAM3/Thirdparty/g2o/stuff 
+C_INCLUDES = -I/home/xun/ORB_SLAM3 -I/home/xun/ORB_SLAM3/include -I/home/xun/ORB_SLAM3/include/CameraModels -I/usr/local/include/eigen3 -I/home/xun/ORB_SLAM3/Thirdparty/g2o/core -I/home/xun/ORB_SLAM3/Thirdparty/g2o/types -I/home/xun/ORB_SLAM3/Thirdparty/g2o/stuff 
 
 CXX_FLAGS =  -Wall   -O3 -std=c++14  -Wall -W -O3 -DNDEBUG -march=native -O3 -march=native -fPIC  
 
 CXX_DEFINES = -DCOMPILEDWITHC11 -DUNIX -Dg2o_EXPORTS
 
-CXX_INCLUDES = -I/home/xun/ORB_SLAM3 -I/home/xun/ORB_SLAM3/include -I/home/xun/ORB_SLAM3/include/CameraModels -I/home/xun/ORB_SLAM3/Thirdparty/Sophus -I/usr/local/include/eigen3 -I/home/xun/ORB_SLAM3/Thirdparty/g2o/core -I/home/xun/ORB_SLAM3/Thirdparty/g2o/types -I/home/xun/ORB_SLAM3/Thirdparty/g2o/stuff 
+CXX_INCLUDES = -I/home/xun/ORB_SLAM3 -I/home/xun/ORB_SLAM3/include -I/home/xun/ORB_SLAM3/include/CameraModels -I/usr/local/include/eigen3 -I/home/xun/ORB_SLAM3/Thirdparty/g2o/core -I/home/xun/ORB_SLAM3/Thirdparty/g2o/types -I/home/xun/ORB_SLAM3/Thirdparty/g2o/stuff 
 

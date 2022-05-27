@@ -23,7 +23,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../"
   "../include"
   "../include/CameraModels"
-  "../Thirdparty/Sophus"
   "/usr/local/include/eigen3"
   "/usr/local/include/opencv4"
   )

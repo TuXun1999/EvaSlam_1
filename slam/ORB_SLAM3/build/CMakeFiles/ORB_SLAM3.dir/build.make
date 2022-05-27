@@ -278,9 +278,22 @@ CMakeFiles/ORB_SLAM3.dir/src/Sim3Solver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM3.dir/src/Sim3Solver.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xun/ORB_SLAM3/src/Sim3Solver.cc -o CMakeFiles/ORB_SLAM3.dir/src/Sim3Solver.cc.s
 
+CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.o: CMakeFiles/ORB_SLAM3.dir/flags.make
+CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.o: ../src/Initializer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.o -c /home/xun/ORB_SLAM3/src/Initializer.cc
+
+CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xun/ORB_SLAM3/src/Initializer.cc > CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.i
+
+CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xun/ORB_SLAM3/src/Initializer.cc -o CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.s
+
 CMakeFiles/ORB_SLAM3.dir/src/Viewer.cc.o: CMakeFiles/ORB_SLAM3.dir/flags.make
 CMakeFiles/ORB_SLAM3.dir/src/Viewer.cc.o: ../src/Viewer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Viewer.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Viewer.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM3.dir/src/Viewer.cc.o -c /home/xun/ORB_SLAM3/src/Viewer.cc
 
 CMakeFiles/ORB_SLAM3.dir/src/Viewer.cc.i: cmake_force
@@ -293,7 +306,7 @@ CMakeFiles/ORB_SLAM3.dir/src/Viewer.cc.s: cmake_force
 
 CMakeFiles/ORB_SLAM3.dir/src/ImuTypes.cc.o: CMakeFiles/ORB_SLAM3.dir/flags.make
 CMakeFiles/ORB_SLAM3.dir/src/ImuTypes.cc.o: ../src/ImuTypes.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/ImuTypes.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/ImuTypes.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM3.dir/src/ImuTypes.cc.o -c /home/xun/ORB_SLAM3/src/ImuTypes.cc
 
 CMakeFiles/ORB_SLAM3.dir/src/ImuTypes.cc.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/ORB_SLAM3.dir/src/ImuTypes.cc.s: cmake_force
 
 CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.o: CMakeFiles/ORB_SLAM3.dir/flags.make
 CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.o: ../src/G2oTypes.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.o -c /home/xun/ORB_SLAM3/src/G2oTypes.cc
 
 CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.i: cmake_force
@@ -319,7 +332,7 @@ CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.s: cmake_force
 
 CMakeFiles/ORB_SLAM3.dir/src/CameraModels/Pinhole.cpp.o: CMakeFiles/ORB_SLAM3.dir/flags.make
 CMakeFiles/ORB_SLAM3.dir/src/CameraModels/Pinhole.cpp.o: ../src/CameraModels/Pinhole.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/CameraModels/Pinhole.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/CameraModels/Pinhole.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM3.dir/src/CameraModels/Pinhole.cpp.o -c /home/xun/ORB_SLAM3/src/CameraModels/Pinhole.cpp
 
 CMakeFiles/ORB_SLAM3.dir/src/CameraModels/Pinhole.cpp.i: cmake_force
@@ -332,7 +345,7 @@ CMakeFiles/ORB_SLAM3.dir/src/CameraModels/Pinhole.cpp.s: cmake_force
 
 CMakeFiles/ORB_SLAM3.dir/src/CameraModels/KannalaBrandt8.cpp.o: CMakeFiles/ORB_SLAM3.dir/flags.make
 CMakeFiles/ORB_SLAM3.dir/src/CameraModels/KannalaBrandt8.cpp.o: ../src/CameraModels/KannalaBrandt8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/CameraModels/KannalaBrandt8.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/CameraModels/KannalaBrandt8.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM3.dir/src/CameraModels/KannalaBrandt8.cpp.o -c /home/xun/ORB_SLAM3/src/CameraModels/KannalaBrandt8.cpp
 
 CMakeFiles/ORB_SLAM3.dir/src/CameraModels/KannalaBrandt8.cpp.i: cmake_force
@@ -345,7 +358,7 @@ CMakeFiles/ORB_SLAM3.dir/src/CameraModels/KannalaBrandt8.cpp.s: cmake_force
 
 CMakeFiles/ORB_SLAM3.dir/src/OptimizableTypes.cpp.o: CMakeFiles/ORB_SLAM3.dir/flags.make
 CMakeFiles/ORB_SLAM3.dir/src/OptimizableTypes.cpp.o: ../src/OptimizableTypes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/OptimizableTypes.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/OptimizableTypes.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM3.dir/src/OptimizableTypes.cpp.o -c /home/xun/ORB_SLAM3/src/OptimizableTypes.cpp
 
 CMakeFiles/ORB_SLAM3.dir/src/OptimizableTypes.cpp.i: cmake_force
@@ -358,7 +371,7 @@ CMakeFiles/ORB_SLAM3.dir/src/OptimizableTypes.cpp.s: cmake_force
 
 CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.o: CMakeFiles/ORB_SLAM3.dir/flags.make
 CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.o: ../src/MLPnPsolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.o -c /home/xun/ORB_SLAM3/src/MLPnPsolver.cpp
 
 CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.i: cmake_force
@@ -368,19 +381,6 @@ CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.i: cmake_force
 CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xun/ORB_SLAM3/src/MLPnPsolver.cpp -o CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.s
-
-CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.o: CMakeFiles/ORB_SLAM3.dir/flags.make
-CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.o: ../src/GeometricTools.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.o -c /home/xun/ORB_SLAM3/src/GeometricTools.cc
-
-CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xun/ORB_SLAM3/src/GeometricTools.cc > CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.i
-
-CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xun/ORB_SLAM3/src/GeometricTools.cc -o CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.s
 
 CMakeFiles/ORB_SLAM3.dir/src/TwoViewReconstruction.cc.o: CMakeFiles/ORB_SLAM3.dir/flags.make
 CMakeFiles/ORB_SLAM3.dir/src/TwoViewReconstruction.cc.o: ../src/TwoViewReconstruction.cc
@@ -394,32 +394,6 @@ CMakeFiles/ORB_SLAM3.dir/src/TwoViewReconstruction.cc.i: cmake_force
 CMakeFiles/ORB_SLAM3.dir/src/TwoViewReconstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM3.dir/src/TwoViewReconstruction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xun/ORB_SLAM3/src/TwoViewReconstruction.cc -o CMakeFiles/ORB_SLAM3.dir/src/TwoViewReconstruction.cc.s
-
-CMakeFiles/ORB_SLAM3.dir/src/Config.cc.o: CMakeFiles/ORB_SLAM3.dir/flags.make
-CMakeFiles/ORB_SLAM3.dir/src/Config.cc.o: ../src/Config.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Config.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM3.dir/src/Config.cc.o -c /home/xun/ORB_SLAM3/src/Config.cc
-
-CMakeFiles/ORB_SLAM3.dir/src/Config.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM3.dir/src/Config.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xun/ORB_SLAM3/src/Config.cc > CMakeFiles/ORB_SLAM3.dir/src/Config.cc.i
-
-CMakeFiles/ORB_SLAM3.dir/src/Config.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM3.dir/src/Config.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xun/ORB_SLAM3/src/Config.cc -o CMakeFiles/ORB_SLAM3.dir/src/Config.cc.s
-
-CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.o: CMakeFiles/ORB_SLAM3.dir/flags.make
-CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.o: ../src/Settings.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.o -c /home/xun/ORB_SLAM3/src/Settings.cc
-
-CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xun/ORB_SLAM3/src/Settings.cc > CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.i
-
-CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xun/ORB_SLAM3/src/Settings.cc -o CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.s
 
 # Object files for target ORB_SLAM3
 ORB_SLAM3_OBJECTS = \
@@ -440,6 +414,7 @@ ORB_SLAM3_OBJECTS = \
 "CMakeFiles/ORB_SLAM3.dir/src/Frame.cc.o" \
 "CMakeFiles/ORB_SLAM3.dir/src/KeyFrameDatabase.cc.o" \
 "CMakeFiles/ORB_SLAM3.dir/src/Sim3Solver.cc.o" \
+"CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.o" \
 "CMakeFiles/ORB_SLAM3.dir/src/Viewer.cc.o" \
 "CMakeFiles/ORB_SLAM3.dir/src/ImuTypes.cc.o" \
 "CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.o" \
@@ -447,10 +422,7 @@ ORB_SLAM3_OBJECTS = \
 "CMakeFiles/ORB_SLAM3.dir/src/CameraModels/KannalaBrandt8.cpp.o" \
 "CMakeFiles/ORB_SLAM3.dir/src/OptimizableTypes.cpp.o" \
 "CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.o" \
-"CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.o" \
-"CMakeFiles/ORB_SLAM3.dir/src/TwoViewReconstruction.cc.o" \
-"CMakeFiles/ORB_SLAM3.dir/src/Config.cc.o" \
-"CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.o"
+"CMakeFiles/ORB_SLAM3.dir/src/TwoViewReconstruction.cc.o"
 
 # External object files for target ORB_SLAM3
 ORB_SLAM3_EXTERNAL_OBJECTS =
@@ -472,6 +444,7 @@ ORB_SLAM3_EXTERNAL_OBJECTS =
 ../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/Frame.cc.o
 ../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/KeyFrameDatabase.cc.o
 ../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/Sim3Solver.cc.o
+../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.o
 ../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/Viewer.cc.o
 ../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/ImuTypes.cc.o
 ../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.o
@@ -479,10 +452,7 @@ ORB_SLAM3_EXTERNAL_OBJECTS =
 ../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/CameraModels/KannalaBrandt8.cpp.o
 ../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/OptimizableTypes.cpp.o
 ../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/MLPnPsolver.cpp.o
-../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.o
 ../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/TwoViewReconstruction.cc.o
-../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/Config.cc.o
-../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.o
 ../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/build.make
 ../lib/libORB_SLAM3.so: /usr/local/lib/libopencv_dnn.so.4.2.0
 ../lib/libORB_SLAM3.so: /usr/local/lib/libopencv_gapi.so.4.2.0
@@ -521,7 +491,7 @@ ORB_SLAM3_EXTERNAL_OBJECTS =
 ../lib/libORB_SLAM3.so: /usr/local/lib/libpango_packetstream.so
 ../lib/libORB_SLAM3.so: /usr/local/lib/libpango_core.so
 ../lib/libORB_SLAM3.so: CMakeFiles/ORB_SLAM3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX shared library ../lib/libORB_SLAM3.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xun/ORB_SLAM3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX shared library ../lib/libORB_SLAM3.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ORB_SLAM3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

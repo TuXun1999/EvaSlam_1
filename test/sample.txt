@@ -1,0 +1,35 @@
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	0.502947
+      mean	0.239761
+    median	0.227302
+       min	0.010291
+      rmse	0.262796
+       sse	55.318370
+       std	0.107594
+
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.137382
+      mean	0.024450
+    median	0.017289
+       min	0.002076
+      rmse	0.032936
+       sse	0.311323
+       std	0.022067
+
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.137382
+      mean	0.024450
+    median	0.017289
+       min	0.002076
+      rmse	0.032936
+       sse	0.311323
+       std	0.022067
+

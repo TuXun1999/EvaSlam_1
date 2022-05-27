@@ -111,110 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named stereo_inertial_tum_vi_old
-
-# Build rule for target.
-stereo_inertial_tum_vi_old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_inertial_tum_vi_old
-.PHONY : stereo_inertial_tum_vi_old
-
-# fast build rule for target.
-stereo_inertial_tum_vi_old/fast:
-	$(MAKE) -f CMakeFiles/stereo_inertial_tum_vi_old.dir/build.make CMakeFiles/stereo_inertial_tum_vi_old.dir/build
-.PHONY : stereo_inertial_tum_vi_old/fast
-
-#=============================================================================
-# Target rules for targets named mono_inertial_tum_vi_old
-
-# Build rule for target.
-mono_inertial_tum_vi_old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mono_inertial_tum_vi_old
-.PHONY : mono_inertial_tum_vi_old
-
-# fast build rule for target.
-mono_inertial_tum_vi_old/fast:
-	$(MAKE) -f CMakeFiles/mono_inertial_tum_vi_old.dir/build.make CMakeFiles/mono_inertial_tum_vi_old.dir/build
-.PHONY : mono_inertial_tum_vi_old/fast
-
-#=============================================================================
-# Target rules for targets named mono_tum_vi_old
-
-# Build rule for target.
-mono_tum_vi_old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mono_tum_vi_old
-.PHONY : mono_tum_vi_old
-
-# fast build rule for target.
-mono_tum_vi_old/fast:
-	$(MAKE) -f CMakeFiles/mono_tum_vi_old.dir/build.make CMakeFiles/mono_tum_vi_old.dir/build
-.PHONY : mono_tum_vi_old/fast
-
-#=============================================================================
-# Target rules for targets named stereo_inertial_euroc_old
-
-# Build rule for target.
-stereo_inertial_euroc_old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_inertial_euroc_old
-.PHONY : stereo_inertial_euroc_old
-
-# fast build rule for target.
-stereo_inertial_euroc_old/fast:
-	$(MAKE) -f CMakeFiles/stereo_inertial_euroc_old.dir/build.make CMakeFiles/stereo_inertial_euroc_old.dir/build
-.PHONY : stereo_inertial_euroc_old/fast
-
-#=============================================================================
-# Target rules for targets named mono_kitti_old
-
-# Build rule for target.
-mono_kitti_old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mono_kitti_old
-.PHONY : mono_kitti_old
-
-# fast build rule for target.
-mono_kitti_old/fast:
-	$(MAKE) -f CMakeFiles/mono_kitti_old.dir/build.make CMakeFiles/mono_kitti_old.dir/build
-.PHONY : mono_kitti_old/fast
-
-#=============================================================================
-# Target rules for targets named mono_tum_old
-
-# Build rule for target.
-mono_tum_old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mono_tum_old
-.PHONY : mono_tum_old
-
-# fast build rule for target.
-mono_tum_old/fast:
-	$(MAKE) -f CMakeFiles/mono_tum_old.dir/build.make CMakeFiles/mono_tum_old.dir/build
-.PHONY : mono_tum_old/fast
-
-#=============================================================================
-# Target rules for targets named stereo_euroc_old
-
-# Build rule for target.
-stereo_euroc_old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_euroc_old
-.PHONY : stereo_euroc_old
-
-# fast build rule for target.
-stereo_euroc_old/fast:
-	$(MAKE) -f CMakeFiles/stereo_euroc_old.dir/build.make CMakeFiles/stereo_euroc_old.dir/build
-.PHONY : stereo_euroc_old/fast
-
-#=============================================================================
-# Target rules for targets named stereo_kitti_old
-
-# Build rule for target.
-stereo_kitti_old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_kitti_old
-.PHONY : stereo_kitti_old
-
-# fast build rule for target.
-stereo_kitti_old/fast:
-	$(MAKE) -f CMakeFiles/stereo_kitti_old.dir/build.make CMakeFiles/stereo_kitti_old.dir/build
-.PHONY : stereo_kitti_old/fast
-
-#=============================================================================
 # Target rules for targets named rgbd_tum
 
 # Build rule for target.
@@ -226,19 +122,6 @@ rgbd_tum: cmake_check_build_system
 rgbd_tum/fast:
 	$(MAKE) -f CMakeFiles/rgbd_tum.dir/build.make CMakeFiles/rgbd_tum.dir/build
 .PHONY : rgbd_tum/fast
-
-#=============================================================================
-# Target rules for targets named mono_euroc_old
-
-# Build rule for target.
-mono_euroc_old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mono_euroc_old
-.PHONY : mono_euroc_old
-
-# fast build rule for target.
-mono_euroc_old/fast:
-	$(MAKE) -f CMakeFiles/mono_euroc_old.dir/build.make CMakeFiles/mono_euroc_old.dir/build
-.PHONY : mono_euroc_old/fast
 
 #=============================================================================
 # Target rules for targets named stereo_inertial_euroc
@@ -358,32 +241,6 @@ mono_inertial_euroc/fast:
 .PHONY : mono_inertial_euroc/fast
 
 #=============================================================================
-# Target rules for targets named mono_inertial_euroc_old
-
-# Build rule for target.
-mono_inertial_euroc_old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mono_inertial_euroc_old
-.PHONY : mono_inertial_euroc_old
-
-# fast build rule for target.
-mono_inertial_euroc_old/fast:
-	$(MAKE) -f CMakeFiles/mono_inertial_euroc_old.dir/build.make CMakeFiles/mono_inertial_euroc_old.dir/build
-.PHONY : mono_inertial_euroc_old/fast
-
-#=============================================================================
-# Target rules for targets named stereo_tum_vi_old
-
-# Build rule for target.
-stereo_tum_vi_old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stereo_tum_vi_old
-.PHONY : stereo_tum_vi_old
-
-# fast build rule for target.
-stereo_tum_vi_old/fast:
-	$(MAKE) -f CMakeFiles/stereo_tum_vi_old.dir/build.make CMakeFiles/stereo_tum_vi_old.dir/build
-.PHONY : stereo_tum_vi_old/fast
-
-#=============================================================================
 # Target rules for targets named ORB_SLAM3
 
 # Build rule for target.
@@ -408,19 +265,6 @@ mono_inertial_tum_vi: cmake_check_build_system
 mono_inertial_tum_vi/fast:
 	$(MAKE) -f CMakeFiles/mono_inertial_tum_vi.dir/build.make CMakeFiles/mono_inertial_tum_vi.dir/build
 .PHONY : mono_inertial_tum_vi/fast
-
-#=============================================================================
-# Target rules for targets named rgbd_tum_old
-
-# Build rule for target.
-rgbd_tum_old: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rgbd_tum_old
-.PHONY : rgbd_tum_old
-
-# fast build rule for target.
-rgbd_tum_old/fast:
-	$(MAKE) -f CMakeFiles/rgbd_tum_old.dir/build.make CMakeFiles/rgbd_tum_old.dir/build
-.PHONY : rgbd_tum_old/fast
 
 #=============================================================================
 # Target rules for targets named stereo_inertial_tum_vi
@@ -772,330 +616,6 @@ Examples/Stereo/stereo_tum_vi.cc.s:
 	$(MAKE) -f CMakeFiles/stereo_tum_vi.dir/build.make CMakeFiles/stereo_tum_vi.dir/Examples/Stereo/stereo_tum_vi.cc.s
 .PHONY : Examples/Stereo/stereo_tum_vi.cc.s
 
-Examples_old/Monocular-Inertial/mono_inertial_euroc.o: Examples_old/Monocular-Inertial/mono_inertial_euroc.cc.o
-
-.PHONY : Examples_old/Monocular-Inertial/mono_inertial_euroc.o
-
-# target to build an object file
-Examples_old/Monocular-Inertial/mono_inertial_euroc.cc.o:
-	$(MAKE) -f CMakeFiles/mono_inertial_euroc_old.dir/build.make CMakeFiles/mono_inertial_euroc_old.dir/Examples_old/Monocular-Inertial/mono_inertial_euroc.cc.o
-.PHONY : Examples_old/Monocular-Inertial/mono_inertial_euroc.cc.o
-
-Examples_old/Monocular-Inertial/mono_inertial_euroc.i: Examples_old/Monocular-Inertial/mono_inertial_euroc.cc.i
-
-.PHONY : Examples_old/Monocular-Inertial/mono_inertial_euroc.i
-
-# target to preprocess a source file
-Examples_old/Monocular-Inertial/mono_inertial_euroc.cc.i:
-	$(MAKE) -f CMakeFiles/mono_inertial_euroc_old.dir/build.make CMakeFiles/mono_inertial_euroc_old.dir/Examples_old/Monocular-Inertial/mono_inertial_euroc.cc.i
-.PHONY : Examples_old/Monocular-Inertial/mono_inertial_euroc.cc.i
-
-Examples_old/Monocular-Inertial/mono_inertial_euroc.s: Examples_old/Monocular-Inertial/mono_inertial_euroc.cc.s
-
-.PHONY : Examples_old/Monocular-Inertial/mono_inertial_euroc.s
-
-# target to generate assembly for a file
-Examples_old/Monocular-Inertial/mono_inertial_euroc.cc.s:
-	$(MAKE) -f CMakeFiles/mono_inertial_euroc_old.dir/build.make CMakeFiles/mono_inertial_euroc_old.dir/Examples_old/Monocular-Inertial/mono_inertial_euroc.cc.s
-.PHONY : Examples_old/Monocular-Inertial/mono_inertial_euroc.cc.s
-
-Examples_old/Monocular-Inertial/mono_inertial_tum_vi.o: Examples_old/Monocular-Inertial/mono_inertial_tum_vi.cc.o
-
-.PHONY : Examples_old/Monocular-Inertial/mono_inertial_tum_vi.o
-
-# target to build an object file
-Examples_old/Monocular-Inertial/mono_inertial_tum_vi.cc.o:
-	$(MAKE) -f CMakeFiles/mono_inertial_tum_vi_old.dir/build.make CMakeFiles/mono_inertial_tum_vi_old.dir/Examples_old/Monocular-Inertial/mono_inertial_tum_vi.cc.o
-.PHONY : Examples_old/Monocular-Inertial/mono_inertial_tum_vi.cc.o
-
-Examples_old/Monocular-Inertial/mono_inertial_tum_vi.i: Examples_old/Monocular-Inertial/mono_inertial_tum_vi.cc.i
-
-.PHONY : Examples_old/Monocular-Inertial/mono_inertial_tum_vi.i
-
-# target to preprocess a source file
-Examples_old/Monocular-Inertial/mono_inertial_tum_vi.cc.i:
-	$(MAKE) -f CMakeFiles/mono_inertial_tum_vi_old.dir/build.make CMakeFiles/mono_inertial_tum_vi_old.dir/Examples_old/Monocular-Inertial/mono_inertial_tum_vi.cc.i
-.PHONY : Examples_old/Monocular-Inertial/mono_inertial_tum_vi.cc.i
-
-Examples_old/Monocular-Inertial/mono_inertial_tum_vi.s: Examples_old/Monocular-Inertial/mono_inertial_tum_vi.cc.s
-
-.PHONY : Examples_old/Monocular-Inertial/mono_inertial_tum_vi.s
-
-# target to generate assembly for a file
-Examples_old/Monocular-Inertial/mono_inertial_tum_vi.cc.s:
-	$(MAKE) -f CMakeFiles/mono_inertial_tum_vi_old.dir/build.make CMakeFiles/mono_inertial_tum_vi_old.dir/Examples_old/Monocular-Inertial/mono_inertial_tum_vi.cc.s
-.PHONY : Examples_old/Monocular-Inertial/mono_inertial_tum_vi.cc.s
-
-Examples_old/Monocular/mono_euroc.o: Examples_old/Monocular/mono_euroc.cc.o
-
-.PHONY : Examples_old/Monocular/mono_euroc.o
-
-# target to build an object file
-Examples_old/Monocular/mono_euroc.cc.o:
-	$(MAKE) -f CMakeFiles/mono_euroc_old.dir/build.make CMakeFiles/mono_euroc_old.dir/Examples_old/Monocular/mono_euroc.cc.o
-.PHONY : Examples_old/Monocular/mono_euroc.cc.o
-
-Examples_old/Monocular/mono_euroc.i: Examples_old/Monocular/mono_euroc.cc.i
-
-.PHONY : Examples_old/Monocular/mono_euroc.i
-
-# target to preprocess a source file
-Examples_old/Monocular/mono_euroc.cc.i:
-	$(MAKE) -f CMakeFiles/mono_euroc_old.dir/build.make CMakeFiles/mono_euroc_old.dir/Examples_old/Monocular/mono_euroc.cc.i
-.PHONY : Examples_old/Monocular/mono_euroc.cc.i
-
-Examples_old/Monocular/mono_euroc.s: Examples_old/Monocular/mono_euroc.cc.s
-
-.PHONY : Examples_old/Monocular/mono_euroc.s
-
-# target to generate assembly for a file
-Examples_old/Monocular/mono_euroc.cc.s:
-	$(MAKE) -f CMakeFiles/mono_euroc_old.dir/build.make CMakeFiles/mono_euroc_old.dir/Examples_old/Monocular/mono_euroc.cc.s
-.PHONY : Examples_old/Monocular/mono_euroc.cc.s
-
-Examples_old/Monocular/mono_kitti.o: Examples_old/Monocular/mono_kitti.cc.o
-
-.PHONY : Examples_old/Monocular/mono_kitti.o
-
-# target to build an object file
-Examples_old/Monocular/mono_kitti.cc.o:
-	$(MAKE) -f CMakeFiles/mono_kitti_old.dir/build.make CMakeFiles/mono_kitti_old.dir/Examples_old/Monocular/mono_kitti.cc.o
-.PHONY : Examples_old/Monocular/mono_kitti.cc.o
-
-Examples_old/Monocular/mono_kitti.i: Examples_old/Monocular/mono_kitti.cc.i
-
-.PHONY : Examples_old/Monocular/mono_kitti.i
-
-# target to preprocess a source file
-Examples_old/Monocular/mono_kitti.cc.i:
-	$(MAKE) -f CMakeFiles/mono_kitti_old.dir/build.make CMakeFiles/mono_kitti_old.dir/Examples_old/Monocular/mono_kitti.cc.i
-.PHONY : Examples_old/Monocular/mono_kitti.cc.i
-
-Examples_old/Monocular/mono_kitti.s: Examples_old/Monocular/mono_kitti.cc.s
-
-.PHONY : Examples_old/Monocular/mono_kitti.s
-
-# target to generate assembly for a file
-Examples_old/Monocular/mono_kitti.cc.s:
-	$(MAKE) -f CMakeFiles/mono_kitti_old.dir/build.make CMakeFiles/mono_kitti_old.dir/Examples_old/Monocular/mono_kitti.cc.s
-.PHONY : Examples_old/Monocular/mono_kitti.cc.s
-
-Examples_old/Monocular/mono_tum.o: Examples_old/Monocular/mono_tum.cc.o
-
-.PHONY : Examples_old/Monocular/mono_tum.o
-
-# target to build an object file
-Examples_old/Monocular/mono_tum.cc.o:
-	$(MAKE) -f CMakeFiles/mono_tum_old.dir/build.make CMakeFiles/mono_tum_old.dir/Examples_old/Monocular/mono_tum.cc.o
-.PHONY : Examples_old/Monocular/mono_tum.cc.o
-
-Examples_old/Monocular/mono_tum.i: Examples_old/Monocular/mono_tum.cc.i
-
-.PHONY : Examples_old/Monocular/mono_tum.i
-
-# target to preprocess a source file
-Examples_old/Monocular/mono_tum.cc.i:
-	$(MAKE) -f CMakeFiles/mono_tum_old.dir/build.make CMakeFiles/mono_tum_old.dir/Examples_old/Monocular/mono_tum.cc.i
-.PHONY : Examples_old/Monocular/mono_tum.cc.i
-
-Examples_old/Monocular/mono_tum.s: Examples_old/Monocular/mono_tum.cc.s
-
-.PHONY : Examples_old/Monocular/mono_tum.s
-
-# target to generate assembly for a file
-Examples_old/Monocular/mono_tum.cc.s:
-	$(MAKE) -f CMakeFiles/mono_tum_old.dir/build.make CMakeFiles/mono_tum_old.dir/Examples_old/Monocular/mono_tum.cc.s
-.PHONY : Examples_old/Monocular/mono_tum.cc.s
-
-Examples_old/Monocular/mono_tum_vi.o: Examples_old/Monocular/mono_tum_vi.cc.o
-
-.PHONY : Examples_old/Monocular/mono_tum_vi.o
-
-# target to build an object file
-Examples_old/Monocular/mono_tum_vi.cc.o:
-	$(MAKE) -f CMakeFiles/mono_tum_vi_old.dir/build.make CMakeFiles/mono_tum_vi_old.dir/Examples_old/Monocular/mono_tum_vi.cc.o
-.PHONY : Examples_old/Monocular/mono_tum_vi.cc.o
-
-Examples_old/Monocular/mono_tum_vi.i: Examples_old/Monocular/mono_tum_vi.cc.i
-
-.PHONY : Examples_old/Monocular/mono_tum_vi.i
-
-# target to preprocess a source file
-Examples_old/Monocular/mono_tum_vi.cc.i:
-	$(MAKE) -f CMakeFiles/mono_tum_vi_old.dir/build.make CMakeFiles/mono_tum_vi_old.dir/Examples_old/Monocular/mono_tum_vi.cc.i
-.PHONY : Examples_old/Monocular/mono_tum_vi.cc.i
-
-Examples_old/Monocular/mono_tum_vi.s: Examples_old/Monocular/mono_tum_vi.cc.s
-
-.PHONY : Examples_old/Monocular/mono_tum_vi.s
-
-# target to generate assembly for a file
-Examples_old/Monocular/mono_tum_vi.cc.s:
-	$(MAKE) -f CMakeFiles/mono_tum_vi_old.dir/build.make CMakeFiles/mono_tum_vi_old.dir/Examples_old/Monocular/mono_tum_vi.cc.s
-.PHONY : Examples_old/Monocular/mono_tum_vi.cc.s
-
-Examples_old/RGB-D/rgbd_tum.o: Examples_old/RGB-D/rgbd_tum.cc.o
-
-.PHONY : Examples_old/RGB-D/rgbd_tum.o
-
-# target to build an object file
-Examples_old/RGB-D/rgbd_tum.cc.o:
-	$(MAKE) -f CMakeFiles/rgbd_tum_old.dir/build.make CMakeFiles/rgbd_tum_old.dir/Examples_old/RGB-D/rgbd_tum.cc.o
-.PHONY : Examples_old/RGB-D/rgbd_tum.cc.o
-
-Examples_old/RGB-D/rgbd_tum.i: Examples_old/RGB-D/rgbd_tum.cc.i
-
-.PHONY : Examples_old/RGB-D/rgbd_tum.i
-
-# target to preprocess a source file
-Examples_old/RGB-D/rgbd_tum.cc.i:
-	$(MAKE) -f CMakeFiles/rgbd_tum_old.dir/build.make CMakeFiles/rgbd_tum_old.dir/Examples_old/RGB-D/rgbd_tum.cc.i
-.PHONY : Examples_old/RGB-D/rgbd_tum.cc.i
-
-Examples_old/RGB-D/rgbd_tum.s: Examples_old/RGB-D/rgbd_tum.cc.s
-
-.PHONY : Examples_old/RGB-D/rgbd_tum.s
-
-# target to generate assembly for a file
-Examples_old/RGB-D/rgbd_tum.cc.s:
-	$(MAKE) -f CMakeFiles/rgbd_tum_old.dir/build.make CMakeFiles/rgbd_tum_old.dir/Examples_old/RGB-D/rgbd_tum.cc.s
-.PHONY : Examples_old/RGB-D/rgbd_tum.cc.s
-
-Examples_old/Stereo-Inertial/stereo_inertial_euroc.o: Examples_old/Stereo-Inertial/stereo_inertial_euroc.cc.o
-
-.PHONY : Examples_old/Stereo-Inertial/stereo_inertial_euroc.o
-
-# target to build an object file
-Examples_old/Stereo-Inertial/stereo_inertial_euroc.cc.o:
-	$(MAKE) -f CMakeFiles/stereo_inertial_euroc_old.dir/build.make CMakeFiles/stereo_inertial_euroc_old.dir/Examples_old/Stereo-Inertial/stereo_inertial_euroc.cc.o
-.PHONY : Examples_old/Stereo-Inertial/stereo_inertial_euroc.cc.o
-
-Examples_old/Stereo-Inertial/stereo_inertial_euroc.i: Examples_old/Stereo-Inertial/stereo_inertial_euroc.cc.i
-
-.PHONY : Examples_old/Stereo-Inertial/stereo_inertial_euroc.i
-
-# target to preprocess a source file
-Examples_old/Stereo-Inertial/stereo_inertial_euroc.cc.i:
-	$(MAKE) -f CMakeFiles/stereo_inertial_euroc_old.dir/build.make CMakeFiles/stereo_inertial_euroc_old.dir/Examples_old/Stereo-Inertial/stereo_inertial_euroc.cc.i
-.PHONY : Examples_old/Stereo-Inertial/stereo_inertial_euroc.cc.i
-
-Examples_old/Stereo-Inertial/stereo_inertial_euroc.s: Examples_old/Stereo-Inertial/stereo_inertial_euroc.cc.s
-
-.PHONY : Examples_old/Stereo-Inertial/stereo_inertial_euroc.s
-
-# target to generate assembly for a file
-Examples_old/Stereo-Inertial/stereo_inertial_euroc.cc.s:
-	$(MAKE) -f CMakeFiles/stereo_inertial_euroc_old.dir/build.make CMakeFiles/stereo_inertial_euroc_old.dir/Examples_old/Stereo-Inertial/stereo_inertial_euroc.cc.s
-.PHONY : Examples_old/Stereo-Inertial/stereo_inertial_euroc.cc.s
-
-Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.o: Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.cc.o
-
-.PHONY : Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.o
-
-# target to build an object file
-Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.cc.o:
-	$(MAKE) -f CMakeFiles/stereo_inertial_tum_vi_old.dir/build.make CMakeFiles/stereo_inertial_tum_vi_old.dir/Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.cc.o
-.PHONY : Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.cc.o
-
-Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.i: Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.cc.i
-
-.PHONY : Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.i
-
-# target to preprocess a source file
-Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.cc.i:
-	$(MAKE) -f CMakeFiles/stereo_inertial_tum_vi_old.dir/build.make CMakeFiles/stereo_inertial_tum_vi_old.dir/Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.cc.i
-.PHONY : Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.cc.i
-
-Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.s: Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.cc.s
-
-.PHONY : Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.s
-
-# target to generate assembly for a file
-Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.cc.s:
-	$(MAKE) -f CMakeFiles/stereo_inertial_tum_vi_old.dir/build.make CMakeFiles/stereo_inertial_tum_vi_old.dir/Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.cc.s
-.PHONY : Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.cc.s
-
-Examples_old/Stereo/stereo_euroc.o: Examples_old/Stereo/stereo_euroc.cc.o
-
-.PHONY : Examples_old/Stereo/stereo_euroc.o
-
-# target to build an object file
-Examples_old/Stereo/stereo_euroc.cc.o:
-	$(MAKE) -f CMakeFiles/stereo_euroc_old.dir/build.make CMakeFiles/stereo_euroc_old.dir/Examples_old/Stereo/stereo_euroc.cc.o
-.PHONY : Examples_old/Stereo/stereo_euroc.cc.o
-
-Examples_old/Stereo/stereo_euroc.i: Examples_old/Stereo/stereo_euroc.cc.i
-
-.PHONY : Examples_old/Stereo/stereo_euroc.i
-
-# target to preprocess a source file
-Examples_old/Stereo/stereo_euroc.cc.i:
-	$(MAKE) -f CMakeFiles/stereo_euroc_old.dir/build.make CMakeFiles/stereo_euroc_old.dir/Examples_old/Stereo/stereo_euroc.cc.i
-.PHONY : Examples_old/Stereo/stereo_euroc.cc.i
-
-Examples_old/Stereo/stereo_euroc.s: Examples_old/Stereo/stereo_euroc.cc.s
-
-.PHONY : Examples_old/Stereo/stereo_euroc.s
-
-# target to generate assembly for a file
-Examples_old/Stereo/stereo_euroc.cc.s:
-	$(MAKE) -f CMakeFiles/stereo_euroc_old.dir/build.make CMakeFiles/stereo_euroc_old.dir/Examples_old/Stereo/stereo_euroc.cc.s
-.PHONY : Examples_old/Stereo/stereo_euroc.cc.s
-
-Examples_old/Stereo/stereo_kitti.o: Examples_old/Stereo/stereo_kitti.cc.o
-
-.PHONY : Examples_old/Stereo/stereo_kitti.o
-
-# target to build an object file
-Examples_old/Stereo/stereo_kitti.cc.o:
-	$(MAKE) -f CMakeFiles/stereo_kitti_old.dir/build.make CMakeFiles/stereo_kitti_old.dir/Examples_old/Stereo/stereo_kitti.cc.o
-.PHONY : Examples_old/Stereo/stereo_kitti.cc.o
-
-Examples_old/Stereo/stereo_kitti.i: Examples_old/Stereo/stereo_kitti.cc.i
-
-.PHONY : Examples_old/Stereo/stereo_kitti.i
-
-# target to preprocess a source file
-Examples_old/Stereo/stereo_kitti.cc.i:
-	$(MAKE) -f CMakeFiles/stereo_kitti_old.dir/build.make CMakeFiles/stereo_kitti_old.dir/Examples_old/Stereo/stereo_kitti.cc.i
-.PHONY : Examples_old/Stereo/stereo_kitti.cc.i
-
-Examples_old/Stereo/stereo_kitti.s: Examples_old/Stereo/stereo_kitti.cc.s
-
-.PHONY : Examples_old/Stereo/stereo_kitti.s
-
-# target to generate assembly for a file
-Examples_old/Stereo/stereo_kitti.cc.s:
-	$(MAKE) -f CMakeFiles/stereo_kitti_old.dir/build.make CMakeFiles/stereo_kitti_old.dir/Examples_old/Stereo/stereo_kitti.cc.s
-.PHONY : Examples_old/Stereo/stereo_kitti.cc.s
-
-Examples_old/Stereo/stereo_tum_vi.o: Examples_old/Stereo/stereo_tum_vi.cc.o
-
-.PHONY : Examples_old/Stereo/stereo_tum_vi.o
-
-# target to build an object file
-Examples_old/Stereo/stereo_tum_vi.cc.o:
-	$(MAKE) -f CMakeFiles/stereo_tum_vi_old.dir/build.make CMakeFiles/stereo_tum_vi_old.dir/Examples_old/Stereo/stereo_tum_vi.cc.o
-.PHONY : Examples_old/Stereo/stereo_tum_vi.cc.o
-
-Examples_old/Stereo/stereo_tum_vi.i: Examples_old/Stereo/stereo_tum_vi.cc.i
-
-.PHONY : Examples_old/Stereo/stereo_tum_vi.i
-
-# target to preprocess a source file
-Examples_old/Stereo/stereo_tum_vi.cc.i:
-	$(MAKE) -f CMakeFiles/stereo_tum_vi_old.dir/build.make CMakeFiles/stereo_tum_vi_old.dir/Examples_old/Stereo/stereo_tum_vi.cc.i
-.PHONY : Examples_old/Stereo/stereo_tum_vi.cc.i
-
-Examples_old/Stereo/stereo_tum_vi.s: Examples_old/Stereo/stereo_tum_vi.cc.s
-
-.PHONY : Examples_old/Stereo/stereo_tum_vi.s
-
-# target to generate assembly for a file
-Examples_old/Stereo/stereo_tum_vi.cc.s:
-	$(MAKE) -f CMakeFiles/stereo_tum_vi_old.dir/build.make CMakeFiles/stereo_tum_vi_old.dir/Examples_old/Stereo/stereo_tum_vi.cc.s
-.PHONY : Examples_old/Stereo/stereo_tum_vi.cc.s
-
 src/Atlas.o: src/Atlas.cc.o
 
 .PHONY : src/Atlas.o
@@ -1176,33 +696,6 @@ src/CameraModels/Pinhole.s: src/CameraModels/Pinhole.cpp.s
 src/CameraModels/Pinhole.cpp.s:
 	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/CameraModels/Pinhole.cpp.s
 .PHONY : src/CameraModels/Pinhole.cpp.s
-
-src/Config.o: src/Config.cc.o
-
-.PHONY : src/Config.o
-
-# target to build an object file
-src/Config.cc.o:
-	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/Config.cc.o
-.PHONY : src/Config.cc.o
-
-src/Config.i: src/Config.cc.i
-
-.PHONY : src/Config.i
-
-# target to preprocess a source file
-src/Config.cc.i:
-	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/Config.cc.i
-.PHONY : src/Config.cc.i
-
-src/Config.s: src/Config.cc.s
-
-.PHONY : src/Config.s
-
-# target to generate assembly for a file
-src/Config.cc.s:
-	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/Config.cc.s
-.PHONY : src/Config.cc.s
 
 src/Converter.o: src/Converter.cc.o
 
@@ -1312,33 +805,6 @@ src/G2oTypes.cc.s:
 	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/G2oTypes.cc.s
 .PHONY : src/G2oTypes.cc.s
 
-src/GeometricTools.o: src/GeometricTools.cc.o
-
-.PHONY : src/GeometricTools.o
-
-# target to build an object file
-src/GeometricTools.cc.o:
-	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.o
-.PHONY : src/GeometricTools.cc.o
-
-src/GeometricTools.i: src/GeometricTools.cc.i
-
-.PHONY : src/GeometricTools.i
-
-# target to preprocess a source file
-src/GeometricTools.cc.i:
-	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.i
-.PHONY : src/GeometricTools.cc.i
-
-src/GeometricTools.s: src/GeometricTools.cc.s
-
-.PHONY : src/GeometricTools.s
-
-# target to generate assembly for a file
-src/GeometricTools.cc.s:
-	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/GeometricTools.cc.s
-.PHONY : src/GeometricTools.cc.s
-
 src/ImuTypes.o: src/ImuTypes.cc.o
 
 .PHONY : src/ImuTypes.o
@@ -1365,6 +831,33 @@ src/ImuTypes.s: src/ImuTypes.cc.s
 src/ImuTypes.cc.s:
 	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/ImuTypes.cc.s
 .PHONY : src/ImuTypes.cc.s
+
+src/Initializer.o: src/Initializer.cc.o
+
+.PHONY : src/Initializer.o
+
+# target to build an object file
+src/Initializer.cc.o:
+	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.o
+.PHONY : src/Initializer.cc.o
+
+src/Initializer.i: src/Initializer.cc.i
+
+.PHONY : src/Initializer.i
+
+# target to preprocess a source file
+src/Initializer.cc.i:
+	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.i
+.PHONY : src/Initializer.cc.i
+
+src/Initializer.s: src/Initializer.cc.s
+
+.PHONY : src/Initializer.s
+
+# target to generate assembly for a file
+src/Initializer.cc.s:
+	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/Initializer.cc.s
+.PHONY : src/Initializer.cc.s
 
 src/KeyFrame.o: src/KeyFrame.cc.o
 
@@ -1690,33 +1183,6 @@ src/Optimizer.cc.s:
 	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/Optimizer.cc.s
 .PHONY : src/Optimizer.cc.s
 
-src/Settings.o: src/Settings.cc.o
-
-.PHONY : src/Settings.o
-
-# target to build an object file
-src/Settings.cc.o:
-	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.o
-.PHONY : src/Settings.cc.o
-
-src/Settings.i: src/Settings.cc.i
-
-.PHONY : src/Settings.i
-
-# target to preprocess a source file
-src/Settings.cc.i:
-	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.i
-.PHONY : src/Settings.cc.i
-
-src/Settings.s: src/Settings.cc.s
-
-.PHONY : src/Settings.s
-
-# target to generate assembly for a file
-src/Settings.cc.s:
-	$(MAKE) -f CMakeFiles/ORB_SLAM3.dir/build.make CMakeFiles/ORB_SLAM3.dir/src/Settings.cc.s
-.PHONY : src/Settings.cc.s
-
 src/Sim3Solver.o: src/Sim3Solver.cc.o
 
 .PHONY : src/Sim3Solver.o
@@ -1858,16 +1324,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... stereo_inertial_tum_vi_old"
-	@echo "... mono_inertial_tum_vi_old"
-	@echo "... mono_tum_vi_old"
-	@echo "... stereo_inertial_euroc_old"
-	@echo "... mono_kitti_old"
-	@echo "... mono_tum_old"
-	@echo "... stereo_euroc_old"
-	@echo "... stereo_kitti_old"
 	@echo "... rgbd_tum"
-	@echo "... mono_euroc_old"
 	@echo "... stereo_inertial_euroc"
 	@echo "... mono_tum"
 	@echo "... stereo_kitti"
@@ -1879,11 +1336,8 @@ help:
 	@echo "... mono_euroc"
 	@echo "... mono_tum_vi"
 	@echo "... mono_inertial_euroc"
-	@echo "... mono_inertial_euroc_old"
-	@echo "... stereo_tum_vi_old"
 	@echo "... ORB_SLAM3"
 	@echo "... mono_inertial_tum_vi"
-	@echo "... rgbd_tum_old"
 	@echo "... stereo_inertial_tum_vi"
 	@echo "... g2o"
 	@echo "... Examples/Monocular-Inertial/mono_inertial_euroc.o"
@@ -1922,42 +1376,6 @@ help:
 	@echo "... Examples/Stereo/stereo_tum_vi.o"
 	@echo "... Examples/Stereo/stereo_tum_vi.i"
 	@echo "... Examples/Stereo/stereo_tum_vi.s"
-	@echo "... Examples_old/Monocular-Inertial/mono_inertial_euroc.o"
-	@echo "... Examples_old/Monocular-Inertial/mono_inertial_euroc.i"
-	@echo "... Examples_old/Monocular-Inertial/mono_inertial_euroc.s"
-	@echo "... Examples_old/Monocular-Inertial/mono_inertial_tum_vi.o"
-	@echo "... Examples_old/Monocular-Inertial/mono_inertial_tum_vi.i"
-	@echo "... Examples_old/Monocular-Inertial/mono_inertial_tum_vi.s"
-	@echo "... Examples_old/Monocular/mono_euroc.o"
-	@echo "... Examples_old/Monocular/mono_euroc.i"
-	@echo "... Examples_old/Monocular/mono_euroc.s"
-	@echo "... Examples_old/Monocular/mono_kitti.o"
-	@echo "... Examples_old/Monocular/mono_kitti.i"
-	@echo "... Examples_old/Monocular/mono_kitti.s"
-	@echo "... Examples_old/Monocular/mono_tum.o"
-	@echo "... Examples_old/Monocular/mono_tum.i"
-	@echo "... Examples_old/Monocular/mono_tum.s"
-	@echo "... Examples_old/Monocular/mono_tum_vi.o"
-	@echo "... Examples_old/Monocular/mono_tum_vi.i"
-	@echo "... Examples_old/Monocular/mono_tum_vi.s"
-	@echo "... Examples_old/RGB-D/rgbd_tum.o"
-	@echo "... Examples_old/RGB-D/rgbd_tum.i"
-	@echo "... Examples_old/RGB-D/rgbd_tum.s"
-	@echo "... Examples_old/Stereo-Inertial/stereo_inertial_euroc.o"
-	@echo "... Examples_old/Stereo-Inertial/stereo_inertial_euroc.i"
-	@echo "... Examples_old/Stereo-Inertial/stereo_inertial_euroc.s"
-	@echo "... Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.o"
-	@echo "... Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.i"
-	@echo "... Examples_old/Stereo-Inertial/stereo_inertial_tum_vi.s"
-	@echo "... Examples_old/Stereo/stereo_euroc.o"
-	@echo "... Examples_old/Stereo/stereo_euroc.i"
-	@echo "... Examples_old/Stereo/stereo_euroc.s"
-	@echo "... Examples_old/Stereo/stereo_kitti.o"
-	@echo "... Examples_old/Stereo/stereo_kitti.i"
-	@echo "... Examples_old/Stereo/stereo_kitti.s"
-	@echo "... Examples_old/Stereo/stereo_tum_vi.o"
-	@echo "... Examples_old/Stereo/stereo_tum_vi.i"
-	@echo "... Examples_old/Stereo/stereo_tum_vi.s"
 	@echo "... src/Atlas.o"
 	@echo "... src/Atlas.i"
 	@echo "... src/Atlas.s"
@@ -1967,9 +1385,6 @@ help:
 	@echo "... src/CameraModels/Pinhole.o"
 	@echo "... src/CameraModels/Pinhole.i"
 	@echo "... src/CameraModels/Pinhole.s"
-	@echo "... src/Config.o"
-	@echo "... src/Config.i"
-	@echo "... src/Config.s"
 	@echo "... src/Converter.o"
 	@echo "... src/Converter.i"
 	@echo "... src/Converter.s"
@@ -1982,12 +1397,12 @@ help:
 	@echo "... src/G2oTypes.o"
 	@echo "... src/G2oTypes.i"
 	@echo "... src/G2oTypes.s"
-	@echo "... src/GeometricTools.o"
-	@echo "... src/GeometricTools.i"
-	@echo "... src/GeometricTools.s"
 	@echo "... src/ImuTypes.o"
 	@echo "... src/ImuTypes.i"
 	@echo "... src/ImuTypes.s"
+	@echo "... src/Initializer.o"
+	@echo "... src/Initializer.i"
+	@echo "... src/Initializer.s"
 	@echo "... src/KeyFrame.o"
 	@echo "... src/KeyFrame.i"
 	@echo "... src/KeyFrame.s"
@@ -2024,9 +1439,6 @@ help:
 	@echo "... src/Optimizer.o"
 	@echo "... src/Optimizer.i"
 	@echo "... src/Optimizer.s"
-	@echo "... src/Settings.o"
-	@echo "... src/Settings.i"
-	@echo "... src/Settings.s"
 	@echo "... src/Sim3Solver.o"
 	@echo "... src/Sim3Solver.i"
 	@echo "... src/Sim3Solver.s"

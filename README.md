@@ -2,8 +2,8 @@
 This repo contains the codes to evaluate [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2), [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3) and [DSM](https://github.com/jzubizarreta/dsm). The evaluated datasets are [KITTI](http://www.cvlibs.net/datasets/kitti/) (00-10, stereo) and [EuRoC](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) (MH01-05, stereo). The evaluation tool is based on [EVO](https://github.com/MichaelGrupp/evo). Also, this project basically follows the ideas in [aqualoc_benchmark](https://github.com/specarmi/aqualoc_benchmark)
 
 # 2. Setup
-To run the bash scripts contained in 'evaluate/' folder, please make sure that you have already installed the corresponding SLAM algorithms on your PC, including their prequisite setup environments. Please see the corresponding READMEs within the 'slam/'. As a reference, the author has installed OpenCV 4.2, Eigen 3.3.8, Pangolin on Ubuntu 20.04 to run all the projects. 
-Also, before you start, you may want to unzip ORBvoc.zip under 'slam/ORBSLAM3' and 'slam/ORBSLAM2' at first, 
+To run the bash scripts contained in 'evaluate/' folder, please make sure that you have already installed the corresponding SLAM algorithms on your PC, including their prequisite setup environments. Please see the corresponding READMEs within the 'slam/'. As a reference, the author has installed OpenCV 4.2, Eigen 3.3.8, Pangolin on Ubuntu 20.04 to run all the projects. \\
+Also, before you start, you may want to unzip ORBvoc.zip under 'slam/ORBSLAM3' and 'slam/ORBSLAM2' at first. But you do NOT need to build everything from source again. The exectuables have already been included. 
 
 # 3. SLAM Algorithms
 The benchmarked SLAM algorithms are located in the 'slam/' directory. You could refer to the links in the first section to check their source codes. Apart from cloning the codes directly into the directory, some modifications have been performed

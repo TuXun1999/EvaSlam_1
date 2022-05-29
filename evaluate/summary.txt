@@ -1,2 +1,484 @@
-2022-05-26-19-39-38 : Sequence {1...5}
-2022-05-26-19-41-01 : Sequence {1...5}
+2022-05-27-15-44-35 : Sequence 0
+Ape results: 
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	2.721196
+      mean	0.932530
+    median	0.913795
+       min	0.122598
+      rmse	0.997960
+       sse	4522.488773
+       std	0.355404
+
+Rpe results: 
+RPE w.r.t. translation part (m)
+for delta = 0.1 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.054178
+      mean	0.024391
+    median	0.024518
+       min	0.004202
+      rmse	0.029508
+       sse	0.012190
+       std	0.016607
+
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.536901
+      mean	0.024567
+    median	0.016568
+       min	0.000784
+      rmse	0.041721
+       sse	3.199276
+       std	0.033721
+
+RPE w.r.t. translation part (m)
+for delta = 10.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	1.872790
+      mean	0.165777
+    median	0.129714
+       min	0.010438
+      rmse	0.225487
+       sse	230.478421
+       std	0.152848
+
+2022-05-27-15-53-16 : Sequence 1
+Ape results: 
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	13.145244
+      mean	4.988953
+    median	5.386880
+       min	0.487043
+      rmse	5.539858
+       sse	33789.718798
+       std	2.408396
+
+Rpe results: 
+[ERROR] delta = 0.1 (m) produced an empty index list - try lower values or a less strict tolerance
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.101443
+      mean	0.068211
+    median	0.068035
+       min	0.024660
+      rmse	0.071173
+       sse	0.162098
+       std	0.020318
+
+RPE w.r.t. translation part (m)
+for delta = 10.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.969561
+      mean	0.218079
+    median	0.159476
+       min	0.052820
+      rmse	0.269833
+       sse	78.124799
+       std	0.158906
+
+2022-05-27-15-55-27 : Sequence 2
+Ape results: 
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	14.249101
+      mean	4.795785
+    median	3.763807
+       min	1.059374
+      rmse	5.839978
+       sse	158965.007231
+       std	3.332534
+
+Rpe results: 
+[ERROR] delta = 0.1 (m) produced an empty index list - try lower values or a less strict tolerance
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.258753
+      mean	0.022951
+    median	0.018006
+       min	0.000802
+      rmse	0.030047
+       sse	1.039158
+       std	0.019393
+
+RPE w.r.t. translation part (m)
+for delta = 10.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	1.039594
+      mean	0.156218
+    median	0.135321
+       min	0.007185
+      rmse	0.184283
+       sse	158.050050
+       std	0.097755
+
+2022-05-27-16-04-25 : Sequence 3
+Ape results: 
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	0.488128
+      mean	0.240893
+    median	0.217353
+       min	0.079185
+      rmse	0.257951
+       sse	53.297531
+       std	0.092245
+
+Rpe results: 
+RPE w.r.t. translation part (m)
+for delta = 0.1 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.021771
+      mean	0.013589
+    median	0.012157
+       min	0.007296
+      rmse	0.014494
+       sse	0.001891
+       std	0.005043
+
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.154169
+      mean	0.024617
+    median	0.017854
+       min	0.002891
+      rmse	0.034820
+       sse	0.350388
+       std	0.024625
+
+RPE w.r.t. translation part (m)
+for delta = 10.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.355219
+      mean	0.122456
+    median	0.108050
+       min	0.016279
+      rmse	0.139383
+       sse	14.570638
+       std	0.066573
+
+2022-05-27-16-06-02 : Sequence 4
+Ape results: 
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	0.400103
+      mean	0.190159
+    median	0.168509
+       min	0.055180
+      rmse	0.209721
+       sse	11.919361
+       std	0.088445
+
+Rpe results: 
+[ERROR] delta = 0.1 (m) produced an empty index list - try lower values or a less strict tolerance
+[ERROR] delta = 1.0 (m) produced an empty index list - try lower values or a less strict tolerance
+RPE w.r.t. translation part (m)
+for delta = 10.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.166173
+      mean	0.079554
+    median	0.074721
+       min	0.017306
+      rmse	0.084507
+       sse	1.892467
+       std	0.028505
+
+2022-05-27-16-06-39 : Sequence 5
+Ape results: 
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	0.802043
+      mean	0.302180
+    median	0.272471
+       min	0.033014
+      rmse	0.328029
+       sse	297.092657
+       std	0.127635
+
+Rpe results: 
+RPE w.r.t. translation part (m)
+for delta = 0.1 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.061303
+      mean	0.031128
+    median	0.022736
+       min	0.008438
+      rmse	0.035378
+       sse	0.086360
+       std	0.016812
+
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.285533
+      mean	0.018031
+    median	0.012123
+       min	0.001169
+      rmse	0.026263
+       sse	0.895313
+       std	0.019096
+
+RPE w.r.t. translation part (m)
+for delta = 10.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.623856
+      mean	0.095907
+    median	0.075837
+       min	0.013935
+      rmse	0.117922
+       sse	38.267883
+       std	0.068611
+
+2022-05-27-16-12-01 : Sequence 6
+Ape results: 
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	1.302008
+      mean	0.720065
+    median	0.800299
+       min	0.032541
+      rmse	0.801240
+       sse	706.826778
+       std	0.351416
+
+Rpe results: 
+[ERROR] delta = 0.1 (m) produced an empty index list - try lower values or a less strict tolerance
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.167402
+      mean	0.027021
+    median	0.016260
+       min	0.003743
+      rmse	0.038486
+       sse	0.232548
+       std	0.027405
+
+RPE w.r.t. translation part (m)
+for delta = 10.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.663928
+      mean	0.101651
+    median	0.076053
+       min	0.020591
+      rmse	0.137941
+       sse	20.721103
+       std	0.093245
+
+2022-05-27-16-14-13 : Sequence 7
+Ape results: 
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	0.674973
+      mean	0.376205
+    median	0.384571
+       min	0.057376
+      rmse	0.399754
+       sse	175.943733
+       std	0.135178
+
+Rpe results: 
+RPE w.r.t. translation part (m)
+for delta = 0.1 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.245596
+      mean	0.094936
+    median	0.082018
+       min	0.003654
+      rmse	0.120501
+       sse	0.943828
+       std	0.074213
+
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.495532
+      mean	0.075631
+    median	0.022797
+       min	0.001180
+      rmse	0.149797
+       sse	11.847905
+       std	0.129303
+
+RPE w.r.t. translation part (m)
+for delta = 10.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.628275
+      mean	0.163946
+    median	0.119749
+       min	0.005288
+      rmse	0.215848
+       sse	49.478763
+       std	0.140399
+
+2022-05-27-16-16-25 : Sequence 8
+Ape results: 
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	11.474586
+      mean	2.801612
+    median	2.206392
+       min	0.296764
+      rmse	3.400334
+       sse	47070.005246
+       std	1.926977
+
+Rpe results: 
+RPE w.r.t. translation part (m)
+for delta = 0.1 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.042647
+      mean	0.022497
+    median	0.020671
+       min	0.009584
+      rmse	0.024060
+       sse	0.014473
+       std	0.008531
+
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	1.653927
+      mean	0.058891
+    median	0.022311
+       min	0.001973
+      rmse	0.188807
+       sse	61.315019
+       std	0.179388
+
+RPE w.r.t. translation part (m)
+for delta = 10.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	9.015446
+      mean	0.310998
+    median	0.172559
+       min	0.011083
+      rmse	0.876833
+       sse	3120.706249
+       std	0.819827
+
+2022-05-27-16-24-15 : Sequence 9
+Ape results: 
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	3.370395
+      mean	1.582587
+    median	1.530178
+       min	0.536005
+      rmse	1.676667
+       sse	4472.636997
+       std	0.553741
+
+Rpe results: 
+[ERROR] delta = 0.1 (m) produced an empty index list - try lower values or a less strict tolerance
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.089799
+      mean	0.017282
+    median	0.014692
+       min	0.001727
+      rmse	0.020539
+       sse	0.235810
+       std	0.011098
+
+RPE w.r.t. translation part (m)
+for delta = 10.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.386479
+      mean	0.128673
+    median	0.107146
+       min	0.012490
+      rmse	0.149749
+       sse	35.386244
+       std	0.076603
+
+2022-05-27-16-27-22 : Sequence 10
+Ape results: 
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	3.139164
+      mean	1.157356
+    median	1.083892
+       min	0.275073
+      rmse	1.290352
+       sse	1999.676433
+       std	0.570559
+
+Rpe results: 
+RPE w.r.t. translation part (m)
+for delta = 0.1 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.061148
+      mean	0.017783
+    median	0.011017
+       min	0.002594
+      rmse	0.024582
+       sse	0.018733
+       std	0.016972
+
+RPE w.r.t. translation part (m)
+for delta = 1.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.133324
+      mean	0.027818
+    median	0.018783
+       min	0.002729
+      rmse	0.035878
+       sse	0.647459
+       std	0.022657
+
+RPE w.r.t. translation part (m)
+for delta = 10.0 (m) using all pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.792847
+      mean	0.136268
+    median	0.101113
+       min	0.006976
+      rmse	0.177425
+       sse	35.194050
+       std	0.113624
+
